@@ -1,0 +1,52 @@
+.program_container {
+  margin-top: 7rem;
+  /* border: 1px solid blue; */
+}
+.program {
+  border: 1px solid red;
+}
+
+.program1_pic,
+.program2_pic {
+  width: 400px;
+}
+
+.program1,
+.program2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 2rem;
+  /* border: 1px solid red; */
+}
+
+.greenText {
+  color: green;
+}
+
+.program1_heading,
+.program2_heading {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  margin-bottom: 1rem;
+}
+.program1_description,
+.program2_description {
+  color: #828282;
+  margin-bottom: 2rem;
+}
+.learn {
+  border: 0;
+  background-color: #368c21;
+  color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 7px;
+}
+.program1_description,
+.program2_description {
+  /* border: 1px solid yellow; */
+  width: 300px;
+}
