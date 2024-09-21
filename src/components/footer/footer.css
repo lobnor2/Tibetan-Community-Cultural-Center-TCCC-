@@ -8,21 +8,76 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid blue; */
+  padding: 0 22rem;
 }
 .footer_para1 {
-  margin-bottom: 1rem;
-  width: 800px;
+  margin-bottom: 2rem;
+  width: 100%;
+  /* border: 1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 .footer_links {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-bottom: 2rem;
 }
 .timings {
   width: 300px;
   margin-bottom: 1rem;
+  color: rgb(194, 194, 194);
 }
 .mobileno {
   margin-bottom: 1rem;
+  color: rgb(194, 194, 194);
+}
+.footer_social {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.footer_link {
+  color: rgb(194, 194, 194);
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  cursor: pointer;
+}
+
+.footer_company,
+.footer_courses {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.footer_subscribe {
+  margin-bottom: 1rem;
+}
+
+.footer_input {
+  border: 0;
+  padding: 0.7rem 1rem;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+.footer_container button {
+  border-radius: 99999px;
+  cursor: pointer;
+}
+.footer_privacy {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(194, 194, 194);
+}
+.footer_copyright,
+.footer_terms {
+  cursor: pointer;
 }
