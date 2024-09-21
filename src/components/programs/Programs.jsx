@@ -1,6 +1,6 @@
 import React from "react";
 import "./programs.css";
-import Writing from "../../Assets/images/student_writing_tibetan_pic.png";
+import Writing from "../../assets/images/student_writing_tibetan_pic.png";
 import Tashi from "../../assets/images/tashi_soepa_pic.png";
 const Programs = () => {
   return (

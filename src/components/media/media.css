@@ -1,0 +1,43 @@
+.media_container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10rem;
+  padding: 0 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.media_pic {
+  width: 250px;
+}
+
+button {
+  border: 0;
+  color: white;
+  background-color: #368c21;
+  padding: 0.7rem 2rem;
+  border-radius: 7px;
+}
+
+.media_description {
+  color: #686868;
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+.media_heading {
+  font-weight: bold;
+}
+.media_description {
+  /* border-color: 1px solid red; */
+  width: 250px;
+}
+
+.media1,
+.media2,
+.media3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
